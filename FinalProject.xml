@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FinalProject
+</name>
+</assembly>
+<members>
+<member name="T:FinalProject.ProjectDataSet1.BasketDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.ItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.SaleRecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.Users1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.BasketRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.ItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.SaleRecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.Users1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.BasketRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.ItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.SaleRecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1.Users1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1TableAdapters.BasketTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1TableAdapters.ItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1TableAdapters.SaleRecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1TableAdapters.Users1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(FinalProject.ProjectDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(FinalProject.ProjectDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(FinalProject.ProjectDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager.UpdateAll(FinalProject.ProjectDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:FinalProject.ProjectDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:FinalProject.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:FinalProject.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:FinalProject.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
